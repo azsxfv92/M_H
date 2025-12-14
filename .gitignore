@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# YOLOv5 specific
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.mlmodel
+*.torchscript
+*.ckpt
+
+# 학습된 모델 제외 (용량이 너무 큼)
+# 단, 최종 베스트 모델은 Git LFS로 관리 가능
+# runs/train/*/weights/best.pt
+
+# Dataset (데이터셋은 별도 다운로드)
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.dng
+*.webp
+*.mpo
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Backup files
+*_backup_*
+*_copy_*
+*copy*.ipynb
+*.bak
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.pydevproject
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Others
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json

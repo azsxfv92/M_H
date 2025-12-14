@@ -1,0 +1,7 @@
+# data/person_final.yaml (예시)
+path: ../datasets/coco
+train: person_only_train2017.txt # 1단계에서 만든 파일
+val: person_only_val2017.txt
+
+nc: 1 # 사람 1개 클래스
+names: ['person']
